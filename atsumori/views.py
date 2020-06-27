@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def user_list(request):
+    return render(request, 'atsumori/user_list.html', {})
